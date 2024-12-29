@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { useMenuContext } from '../layout';
+import { useMenuContext } from '../Layout';
 import MenuOption from '@/components/menuOption';
 ;
 
