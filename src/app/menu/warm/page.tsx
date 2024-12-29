@@ -17,7 +17,7 @@ export default function WarmMenu() {
 
     return (
             <>
-            <div className="grid md:grid-cols-4 grid-cols-2 w-full justify-items-center gap-8">
+            <div className="grid lg:grid-cols-2 grid-cols-1 w-full justify-items-center gap-8">
                 <MenuOption span='نوشیدنی' details='نوشیدنی' />
                 <MenuOption span='نوشیدنی' details='نوشیدنی' />
                 <MenuOption span='نوشیدنی' details='نوشیدنی' />
@@ -27,7 +27,6 @@ export default function WarmMenu() {
                 <MenuOption span='نوشیدنی' details='نوشیدنی' />
                 <MenuOption span='نوشیدنی' details='نوشیدنی' />
                 <MenuOption span='نوشیدنی' details='نوشیدنی' />
-
             </div>
             </>
     )

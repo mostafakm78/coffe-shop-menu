@@ -19,7 +19,7 @@ export default function WarmMenu() {
     return (
             <>
             <div className="grid lg:grid-cols-2 grid-cols-1 w-full justify-items-center gap-8">
-                <MenuOption span='نوشیدنی' details='این نوشیدنی شامل محتویات قهوه و شکلات و شیر داغ میباشد ین نوشیدنی شامل محتویات قهوه و شکلات و شیر داغ میباشد'  />
+                <MenuOption span='بستنی وانیلی' details='این نوشیدنی شامل محتویات قهوه و شکلات و شیر داغ میباشد ین نوشیدنی شامل محتویات قهوه و شکلات و شیر داغ میباشد'  />
                 <MenuOption span='نوشیدنی' details='نوشیدنی'  />
                 <MenuOption span='نوشیدنی' details='نوشیدنی'  />
                 <MenuOption span='نوشیدنی' details='نوشیدنی'  />
