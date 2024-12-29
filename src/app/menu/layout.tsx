@@ -1,26 +1,12 @@
 'use client';
 
-import React, { createContext, useState, ReactNode, useContext } from 'react';
+import React, { useState } from 'react';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
 import Link from 'next/link';
+import { MenuContext } from './context';
 
 
-interface MenuContextType {
-  setTitle: (title: string) => void;
-}
-
-
-const MenuContext = createContext<MenuContextType | undefined>(undefined);
-
-
-export const useMenuContext = () => {
-  const context = useContext(MenuContext);
-  if (!context) {
-    throw new Error('useMenuContext must be used within MenuLayout');
-  }
-  return context;
-};
 
 interface MenuLayoutProps {
   children: React.ReactNode;
