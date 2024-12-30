@@ -12,7 +12,7 @@ export default function WarmMenu() {
     const { setTitle } = useMenuContext();
 
     useEffect(() => {
-        setTitle('نوشیدنی های سرد'); // ارسال متن به Layout
+        setTitle('نوشیدنی های سرد');
     }, [setTitle]);
 
 
